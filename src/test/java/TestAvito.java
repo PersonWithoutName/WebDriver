@@ -21,8 +21,7 @@ public class TestAvito {
 
     @Test
     public void testGetTheMostExpensivePrinters() throws InterruptedException {
-        WebElement search = driver.findElement(By.xpath("//input[@id='search']"));
-        search.sendKeys("Принтер");
+        driver.findElement(By.xpath("//input[@id='search']")).sendKeys("Принтер");
         driver.findElement(By.xpath("//div[@data-marker='search-form/region']")).click();
         driver.findElement(By.xpath("//input[@data-marker='popup-location/region/input']")).sendKeys("Владивосток");
         Thread.sleep(1000);
