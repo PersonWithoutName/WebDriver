@@ -8,10 +8,6 @@ public enum Prise {
 
     public String value;
 
-    public String getValue() {
-        return value;
-    }
-
     Prise(String value) {
         this.value = value;
     }

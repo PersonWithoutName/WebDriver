@@ -10,7 +10,7 @@ public enum Category {
     Велосипеды("//option[@data-marker='option(34)']");
 
 
-     String value;
+    String value;
 
     Category(String value) {
         this.value = value;
